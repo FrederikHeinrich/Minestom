@@ -11,7 +11,7 @@
 <link rel="stylesheet" type="text/css" href="../../../../script-dir/jquery-ui.min.css" title="Style">
 <link rel="stylesheet" type="text/css" href="../../../../jquery-ui.overrides.css" title="Style">
 <script type="text/javascript" src="../../../../script.js"></script>
-<script type="text/javascript" src="../../../../script-dir/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="../../../../script-dir/jquery-3.6.1.min.js"></script>
 <script type="text/javascript" src="../../../../script-dir/jquery-ui.min.js"></script>
 </head>
 <body class="class-declaration-page">
@@ -133,6 +133,12 @@ loadScripts(document, 'script');</script>
 <div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>int</code></div>
 <div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#hashCode()" class="member-name-link">hashCode</a>()</code></div>
 <div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>boolean</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#matchCondition(net.minestom.server.command.CommandSender,java.lang.String)" class="member-name-link">matchCondition</a><wbr>(@NotNull <a href="../command/CommandSender.html" title="interface in net.minestom.server.command">CommandSender</a>&nbsp;sender,
+ @Nullable <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;commandString)</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="block">Checks by permission whether the command may be executed or not.</div>
+</div>
 </div>
 </div>
 </div>
@@ -206,6 +212,23 @@ loadScripts(document, 'script');</script>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>the nbt data of this permission, can be null if not any</dd>
+</dl>
+</section>
+</li>
+<li>
+<section class="detail" id="matchCondition(net.minestom.server.command.CommandSender,java.lang.String)">
+<h3>matchCondition</h3>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">matchCondition</span><wbr><span class="parameters">(@NotNull
+ @NotNull <a href="../command/CommandSender.html" title="interface in net.minestom.server.command">CommandSender</a>&nbsp;sender,
+ @Nullable
+ @Nullable <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;commandString)</span></div>
+<div class="block">Checks by permission whether the command may be executed or not.</div>
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>sender</code> - </dd>
+<dd><code>commandString</code> - </dd>
+<dt>Returns:</dt>
+<dd>whether the sender has the authorization to execute the command.</dd>
 </dl>
 </section>
 </li>

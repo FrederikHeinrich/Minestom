@@ -34,6 +34,7 @@ net.minestom.server.entity.metadata.ambient
 net.minestom.server.entity.metadata.animal
 net.minestom.server.entity.metadata.animal.tameable
 net.minestom.server.entity.metadata.arrow
+net.minestom.server.entity.metadata.display
 net.minestom.server.entity.metadata.flying
 net.minestom.server.entity.metadata.golem
 net.minestom.server.entity.metadata.item
